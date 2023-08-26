@@ -1,12 +1,13 @@
 import React from "react";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import backgroudImage from "../assets/images/coverpic.jpeg"
 const Main = () => {
   return (
     <div id="Main">
       <img
         className=" w-full h-screen object-cover object-left scale-x-[1]"
-        src="./src/assets/images/coverpic.jpeg"
+        src={backgroudImage}
         alt=""
       />
 
@@ -19,7 +20,6 @@ const Main = () => {
             I'm a
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 " Developer",
                 2000,
                 "  Coder",
