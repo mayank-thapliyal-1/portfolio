@@ -40,13 +40,13 @@ const Main = () => {
                 size={20}
               />
             </a>
-            <a href="https://www.instagram.com/mayank_thapliyal1/">
+            <a href="https://www.instagram.com/mayank_thapliyal1/" target="blank">
               <FaInstagram
                 className="dark:text-slate-500 cursor-pointer rounded-md hover:scale-110 ease-in-out duration-500 hover:bg-white hover: w-6 hover:h-6"
                 size={20}
               />
             </a>
-            <a href="https://www.linkedin.com/in/mayank-thapliyal-17b134259/">
+            <a href="https://www.linkedin.com/in/mayank-thapliyal-17b134259/" target="blank">
               <FaLinkedinIn
                 className="dark:text-slate-500 cursor-pointer rounded-md hover:scale-110 ease-in-out duration-500 hover:bg-white hover: w-6 hover:h-6"
                 size={20}

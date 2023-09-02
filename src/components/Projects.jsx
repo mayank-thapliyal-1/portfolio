@@ -23,22 +23,30 @@ const Projects = () => {
         <ProjectItem
           img={QuizzyImg}
           title="Quizzy"
+          use="React Js"
           link="https://quizzy-git-main-mayank-thapliyal-1.vercel.app/"
+          linker="https://github.com/mayank-thapliyal-1/Quizzy"
         />
         <ProjectItem
           img={CodeNebula}
           title="CodeNebula"
+          use="Css , Html"
           link="https://code-nebulae-git-main-mayank-thapliyal-1.vercel.app/"
+          linker="https://github.com/mayank-thapliyal-1/CodeNebulae"
         />
         <ProjectItem
           img={DrumKitImg}
           title="DrumKit"
+          use="Javascript , css"
           link="https://drum-kit-git-main-mayank-thapliyal-1.vercel.app/"
+          linker="https://github.com/mayank-thapliyal-1/Drum-Kit-Starting-Files"
         />
         <ProjectItem
           img={MoveItImg}
           title="MoveIt"
+          use="Bootstrap"
           link="https://move-it-git-main-mayank-thapliyal-1.vercel.app/"
+          linker="https://github.com/mayank-thapliyal-1/Move-IT"
         />
       </div>
     </div>
