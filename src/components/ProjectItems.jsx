@@ -8,7 +8,7 @@ const ProjectItem =({img,title,link,linker,use})=>{
                 <p className=" pb-4 pt-2 text-white text-center">{use}</p>
                 <div className=" flex gap-[20px]">
                 <a  href={linker} target="blank"><p className="text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-sm  hover:text-pink-300 " >github</p></a>
-                <a href={link} target="blank"><p className="text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-sm hover:text-pink-300">more info</p></a>
+                <a href={link} target="blank"><p className="text-center p-2 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-sm hover:text-pink-300">Link</p></a>
                 </div>
                 </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import backgroudImage from "../assets/images/coverpic.jpeg"
+import backgroudImage from "../assets/images/Coverpic.jpeg"
 const Main = () => {
   return (
     <div id="Main">
