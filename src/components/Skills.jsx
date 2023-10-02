@@ -10,31 +10,37 @@ const Skills = () => {
           img={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
           }
+          alt={"Html"}
         />
         <Skillsitem
           img={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
           }
+          alt={"Css"}
         />
         <Skillsitem
           img={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           }
+          alt={"Javascript"}
         />
         <Skillsitem
           img={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           }
+          alt={"React_js"}
         />
         <Skillsitem
           img={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
           }
+          alt={"tailwind_css"}
         />
         <Skillsitem
           img={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
           }
+          alt={"github"}
         />
       </div>
     </div>

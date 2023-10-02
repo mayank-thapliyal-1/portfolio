@@ -8,7 +8,7 @@ const Main = () => {
       <img
         className=" w-full h-screen object-cover object-left scale-x-[1]"
         src={backgroudImage}
-        alt=""
+        alt="backround"
       />
 
       <div className="w-full h-screen absolute top-0 left-0 bg-white/60 dark:bg-black/60 ">
@@ -33,23 +33,23 @@ const Main = () => {
               style={{ fontSize: "1em", paddingLeft: "5px" }}
             />
           </h2>
-          <div className="flex  justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://github.com/dashboard" target="blank">
+          <div className="flex  justify-between pt-6 max-w-[200px] w-full" >
+            <a href="https://github.com/dashboard" alt="github link" target="blank">
               <FaGithub
                 className="dark:text-slate-500  cursor-pointer rounded-md hover:scale-110 ease-in-out duration-500 hover:bg-white hover: w-6 hover:h-6"
-                size={20}
+                size={20} alt="github  button"
               />
             </a>
-            <a href="https://www.instagram.com/mayank_thapliyal1/" target="blank">
+            <a href="https://www.instagram.com/mayank_thapliyal1/" alt="intagram link" target="blank">
               <FaInstagram
                 className="dark:text-slate-500 cursor-pointer rounded-md hover:scale-110 ease-in-out duration-500 hover:bg-white hover: w-6 hover:h-6"
-                size={20}
+                size={20} alt=" instagram button "
               />
             </a>
-            <a href="https://www.linkedin.com/in/mayank-thapliyal-17b134259/" target="blank">
+            <a href="https://www.linkedin.com/in/mayank-thapliyal-17b134259/" alt="linked in link" target="blank">
               <FaLinkedinIn
                 className="dark:text-slate-500 cursor-pointer rounded-md hover:scale-110 ease-in-out duration-500 hover:bg-white hover: w-6 hover:h-6"
-                size={20}
+                size={20} alt ="linkedin button"
               />
             </a>
           </div>
